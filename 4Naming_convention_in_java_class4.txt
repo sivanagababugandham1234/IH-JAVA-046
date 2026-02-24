@@ -1,0 +1,194 @@
+Naming Conventions in java
+==========================
+In java, uppercase letters will consider as different and lowercase letters will consider as different.Hence we consider java is a case sensitive programming language.
+
+As java is a case sensitive, we must and should follow naming conventions for following things.
+
+ex:
+	classes
+	interfaces
+	variables 
+	methods 
+	keywords
+	packages 
+	and 
+	constants 
+	
+
+classes
+--------
+In java, a class name must and should starts with uppercase letter and if it contains multiple words then each inner word must starts with initcap.
+
+ex:
+	Predefined classes		Userdefined classes
+	--------------------		--------------------
+	System				Test
+	FileWriter 			DemoApp
+	BufferedReader			ExampleApp	
+	PrintWriter 			SumOfTwoNumbers
+	and etc.			and etc.
+
+interfaces
+-----------
+In java, interface name must and should starts with uppercase letter and if it contains multiple words then each inner word must starts with initcap.
+
+ex:
+	Predefined interfaces		Userdefined interfaces
+	-------------------		-----------------------
+	Runnable 			ITest 			
+	ListIterator 			IDemoApp 
+	Enumeration 			IExampleApp
+	PreparedStatement 		IMyInterface
+	and etc.			and etc.
+
+variables
+---------
+In java ,a variable name must and should starts with lowercase letters and if it contains multiple words then each inner word must starts with initcap.
+
+ex:
+	Predefined variables		Userdefined variables
+	-----------------		--------------------
+	length 				empId
+	out				studName
+	err				deptNo
+	in				empSalary
+	and etc.			and etc.
+
+
+methods 
+-------
+In java, a method name must and should starts with lowercase letter and if it contains multiple words then each inner word must starts with initcap.
+
+ex:
+	predefined methods		userdefined methods
+	-------------------		-------------------
+	hashCode()			getDetails()
+	toString()			setBill()
+	getClass()			info() 
+	setPriority()			caculateBillAmt()	
+	getName()			and etc.
+	and etc.
+
+keywords
+---------
+In java, all keywords we need to declare under lowercase letters only.
+
+ex:
+	predefined keywords
+	-------------------
+	class
+	static
+	void
+	public 
+	int 
+	else 
+	for 
+	and etc.	
+
+packages
+---------
+In java, all packages we need to declare under lowercase letters only.
+
+ex:
+	Predefined packages		userdefined packages
+	-------------------		--------------------
+	java.lang 			com.ihub.www
+	java.io				com.google.www
+	java.util			com.qt.com 
+	java.util.stream		and etc.
+	java.text
+	java.time 
+	and etc.
+
+
+constants
+----------
+In java, all constants we need to declare under uppercase letters only.
+
+ex:
+	Predefined constants		Userdefined constants 
+	-------------------		----------------------
+	MAX_PRIORITY 			N = 10;	
+	MIN_PRIORITY 
+	NORM_PRIORITY 
+	and etc.
+
+Project 
+=======
+Technically a project is a collection of modules.
+
+We have following list of modules in java.
+
+ex:
+	Login module 
+	Registration module 
+	admin module 
+	payment module 
+	report generation module 
+	and etc.
+
+Every project contains  two domains.
+
+1) Technical Domain 
+-------------
+	Technical domain describes using which technology we developed our project.
+	ex:
+		Java
+
+2) Functional Domain
+--------------------
+	Functional domain describes state of a project.
+	ex:
+		Healthcare domain 
+		Banking domain 
+		ERP domain 
+		Insuarance domaing 
+		and etc.
+
+
+Assignment
+===========
+1) class 	:	QualityThought 
+
+2) Interface	: 	IQualityThought 	
+
+3) variable 	:	qualityThought 
+
+4) method 	:	qualityThought()
+
+5) package 	:	com.qualitythought.www
+
+6) constant 	:	QUALITY_THOUGHT	
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
