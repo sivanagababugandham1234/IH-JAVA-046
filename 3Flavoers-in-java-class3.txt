@@ -1,0 +1,114 @@
+Flavours in Java
+================
+We have three flavours in Java.
+
+					JAVA
+					  |
+	|---------------------------------|-----------------------------|
+	JSE/J2SE			JEE/J2EE			JME/J2ME
+(Java Standard Edition)		(Java Enterprise Edition)	(Java Micro Edition)
+
+> Standalone app 		> Distributed app 		> Mobile app 
+
+> Desktop app 			> Enterprise app 
+
+> Two-tier app			> ERP app 
+
+				> N-tier app  
+ 	
+
+> Standalone app
+-----------------
+A normal java program which contains main method is called standalone application.
+
+ex:
+	class Test
+	{
+		public static void main(String[] args)
+		{
+			-
+			-
+		}	
+	}
+
+> Desktop app 
+--------------
+It is a software application or a program which is used to perform perticular task.
+ex:
+	Control panel 
+	VLC Media player 
+	Recycle Bin
+	and etc.
+
+
+> Two-tier app 
+---------------
+Having more then one tier is called two-tier application.
+
+Diagram: class3.1
+Diagram: class3.2
+
+
+> Distributed app 
+------------------
+Diagram: class3.3
+
+In client/server architecture , if multiple request goes to main server then main server will destribute those request to it's parallel servers to reduce the burdun of main server such type of application is called distributed application.
+
+
+> Enterprise app
+-----------------
+An application which deals with large business complex logic with the help of middleware services is called enterprise application.
+
+Here middleware services means authentication, autherization, malware production, security and etc.
+ex:
+	facebook 
+	online shopping websites
+	and etc 
+
+> ERP app 
+----------
+ERP stands for Enterprise Resource Planning.
+
+ERP is used to maintain the data in enterprise.
+
+Diagram: class3.4
+
+
+> N-tier app  
+-----------
+Having more then two tiers is called N-tier application.
+
+
+> Mobile app 
+-------------
+It is a softwae application which is speciall designed for wireless network devices like phone, tab, cell, cellular and etc. rather then laptop's and PC's.
+ex:
+	PubG
+	GPay 
+	phonepay 
+	and etc.
+Note:
+-----
+JME flavour is outdated from java because we got alternate technologies like Andriod, React Native, Flutter and Swift programming .
+
+Interview Question 
+===================
+Q) What is Java?
+
+Java is a versatile programming language which is used to develop standalone app , desktop app, two tier app, distributed app, enterprises app, ERP app, N-tier app, networking app, mobile app and etc. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
