@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Entry</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .form-container h2 {
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .input-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box; /* Crucial for padding */
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 1.5rem;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+        }
+
+        input[type="reset"] {
+            background-color: #e0e0e0;
+            color: #555;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Student Registration</h2>
+    <form action="addStudent">
+        <div class="input-group">
+            <label>Registration No.</label>
+            <input type="text" name="no" placeholder="e.g. 2023001" required />
+        </div>
+        
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter student name" required />
+        </div>
+        
+        <div class="input-group">
+            <label>Branch</label>
+            <input type="text" name="branch" placeholder="e.g. CSE, EEE" required />
+        </div>
+        
+        <div class="input-group">
+            <label>Section</label>
+            <input type="text" name="section" placeholder="e.g. A or B" required />
+        </div>
+        
+        <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" name="mail" placeholder="student@college.edu" required />
+        </div>
+
+        <div class="button-group">
+            <input type="submit" value="Submit Data">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
